@@ -156,3 +156,22 @@ body.dark {
 body.dark h1 {
   color: white;
 }
+
+@media only screen and (max-device-width: 700px) {
+  #hero {
+    width: 30.2rem;
+  }
+
+  #hero img {
+    width: 30rem;
+  }
+
+  #footer .line {
+    width: 20.8rem;
+  }
+
+  .slider::after {
+    border-radius: 999px;
+    backdrop-filter: opacity(90%);
+  }
+}
